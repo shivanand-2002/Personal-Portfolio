@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | By Shivanand Gourkar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">PORTFOLIO</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+
+
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/passport photo.jpg" alt="Yash profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am</p>
+            <h1 class="title">Shivanand Gourkar</h1>
+            <p class="section__text__p2">MERN Stack Developer</p>
+            <div class="btn-container">
+                <button
+            class="btn btn-color-2"
+            onclick="window.open('https://shivanandgourkar.tiiny.site')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href=('https://x.com/Shivanandgourka')"
+          >
+            Contact Info
+          </button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" 
+                alt="My Linkedin Profile" 
+                class="icon"
+                onclick="window.open('https://www.linkedin.com/in/yash-shitole-64725424a/')"
+                />
+                <img src="./assets/github.png" 
+                alt="My Github Profile" 
+                class="icon"
+                onclick="window.open('https://github.com/yashshitole2003')"
+                />
+            </div>
+
+        </div>
+    </section>
+    <section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" 
+                    alt="experience icon"
+                    class="icon"
+                    />
+                    <h1>Experience</h1>
+                    <p>Fresh Graduate<br>MERN Stack Developer</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" 
+                    alt="education icon"
+                    class="icon"
+                    />
+                    <h1>Education</h1>
+                    <p>Bachelor of Engineering (BE) in <br>Electronics and Computer</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Hello everyone! I am Shivanand Hemant Gourkar, currently pursuing my third year of engineering at PES Modern Engineering College, Pune, specializing in Electronics and Computer Engineering. 
+                  I am passionate about creating innovative solutions that bridge the gap between technology and real-world applications.With a keen interest in MERN stack development, I enjoy building dynamic and responsive web applications.
+                  <p>My journey in the tech world also includes my passion for UI/UX design, where I strive to create intuitive and engaging user experiences. 
+                This allows me to add creativity to my projects. I believe that interdisciplinary knowledge can provide effective and successful solutions.
+                Let's connect and create something amazing together!
+              </p>
+
+                
+                </p>
+            </div>
+        </div>
+    </div>
+   
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Front-End</h2>
+              <div class="article-container">
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JS</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Tailwind</h3>
+                      <p>Intermediate</p>
+                    </div>
+                </article>
+                  
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Bootstrap</h3>
+                      <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wordpress</h3>
+                    <p>Intermediate</p>
+                  </div>
+              </article>
+
+
+                  
+
+            </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Back-End & Database</h2>
+              <div class="article-container">
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MongoDB</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+      
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+
+            <div class="details-container color-container">
+              
+              <div class="article-container">
+                <img src="https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Library-management-system</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/shivanand-2002/Library-management-system')"
+                >
+                  Github
+                
+              </div>
+            </div>
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://user-images.githubusercontent.com/64485885/234604188-a0ba3e8a-a8fe-4465-afa6-17c34e46848c.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Music & Podcast Player</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/shivanand-2002/Podcast-player')"
+                >
+                  Github
+                
+              </div>
+            </div>
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="https://www.reviewtrackers.com/wp-content/uploads/blog-hero-Successful-Hotel-Review-Management-4-Best-Practices-2000x960.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Hotel Feedback App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/shivanand-2002/Hotel-Feedback-App')"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        
+      </section>
+      
+      
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a onclick="window.open('mailto:shivanandhgourkar@gmail.com')" style="cursor: pointer;">Gmail</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a onclick="window.open('https://www.linkedin.com/in/shivanand-gourkar/')" style="cursor: pointer;">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      
+    <script src="script.js"></script>
+</body>
+</html>
